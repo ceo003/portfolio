@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Add Animation on Scroll Effect
-    const animateElements = document.querySelectorAll('.service-card, .portfolio-item, .about-image, .about-text, .contact-form, .contact-info');
+    const animateElements = document.querySelectorAll('.service-card, .portfolio-item, .about-image, .about-text, .contact-form, .contact-info, .featured-project');
     
     function checkIfInView() {
         animateElements.forEach(element => {
