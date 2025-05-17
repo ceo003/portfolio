@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Typing Animation for Hero Section
-    const textArray = ["Desenvolvedor", "Designer", "Freelancer"];
+    const textArray = ["Engenheiro Informático", "Especialista em Marketing", "Desenvolvedor Web"];
     const typingElement = document.querySelector('.highlight');
     let textArrayIndex = 0;
     let charIndex = 0;

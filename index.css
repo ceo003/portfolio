@@ -239,7 +239,17 @@ nav ul li a.active {
 .text-content p {
     font-size: 1.2rem;
     color: var(--text-gray);
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+.text-content .quote {
+    font-style: italic;
+    font-weight: 500;
+    color: var(--primary-color);
+    border-left: 3px solid var(--primary-color);
+    padding-left: 15px;
+    margin: 20px 0 30px;
+    line-height: 1.6;
 }
 
 .highlight {
