@@ -17,8 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Skill Levels Animation
     skillLevels.forEach(skill => {
-        const level = skill.getAttribute('data-level');
-        skill.style.width = level;
+        skill.style.width = '0';
+        setTimeout(() => {
+            const level = skill.getAttribute('data-level');
+            skill.style.width = level;
+        }, 300);
     });
     
     // Sticky Header & Back to Top Button

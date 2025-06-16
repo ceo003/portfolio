@@ -470,16 +470,8 @@ nav ul li a.active {
     background: var(--primary-color);
     border-radius: 5px;
     position: relative;
-    animation: skillLevel 2s ease-in-out forwards;
-}
-
-@keyframes skillLevel {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: attr(data-level);
-    }
+    width: 0;
+    transition: width 1.5s cubic-bezier(.4,1.3,.5,1);
 }
 
 /* ================= SERVICES SECTION ================== */
